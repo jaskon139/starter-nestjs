@@ -1,16 +1,13 @@
-
-
 {
-  "name": "nodejs-proxy-example",
+  "name": "nodejs-proxy",
   "version": "1.0.0",
-  "description": "An example of @3kmfi6hp/nodejs-proxy",
-  "main": "index.js",
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "start": "node dist/main"
+   "start": "node dist/main"
   },
-  "author": "3Kmfi6HP",
-  "license": "MIT",
   "dependencies": {
-    "@3kmfi6hp/nodejs-proxy": "latest"
+    "http-proxy": "latest",
+    "ws": "^8.13.0"
   }
 }
